@@ -24,7 +24,7 @@ import java.util.regex.Pattern;
  * and buffers some data internally, and any data that has been buffered is not
  * available for reading except through the TextReader.
  */
-public class TextReader implements AutoCloseable{
+public class TextReader implements AutoCloseable {
 
     // "implments AutoCloseable" was added in July 2014 to make it possible to use
     // TextReader as a resource in try..catch.  This did not require any
