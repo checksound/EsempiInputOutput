@@ -4,6 +4,10 @@ Esempio [CopyFile](./src/CopyFile.java) programma che compia un file: utilizza `
 
 Esempio [CopyFileAsResources](./src/CopyFileAsResources.java), simile all'esempio precedente, solo che utilizza la nuova feature del **try-catch-with-resource** per chiudere in automatico gli stream di input e di output.
 
+Esempio di utilizzo `java.io.RandomAccessFile`, [RandomAccessFileTest.java](./src/RandomAccessFileTest.java)
+
+Esempio su serializzazione: [ObjectSerialization.java](./src/ObjectSerializationTest.java)
+
 Esempio **compressione di file e directory**: [Compress.java](./src/Compress.java) e [AppCompress.java](./src/AppCompress.java). Utilizzo: `java AppCompress <from> [<to>]`
 
 Esempio **filtraggio di Character Stream**: [RemoveHTMLReader.java](./src/RemoveHTMLReader.java) e [AppRemoveHTMLReader.java](./src/AppRemoveHTMLReader.java), per rimuovere i tag HTML. Utilizzo: `java AppRemoveHTMLReader <filename>`
