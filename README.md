@@ -10,7 +10,7 @@ Esempi su serializzazione:
 
 * [ObjectSerializationTest.java](./src/serialization/ObjectSerializationTest.java) serializzazione di oggetti della classe `MySerializedObject`;
 
-* [Serailizer.java](./src/serialization/Serializer.java) e [SerailizerTest.java](./src/serialization/SerializerTest.java) un generico serializzatore e deserializzatore;
+* [Serializer.java](./src/serialization/Serializer.java) e [SerializerTest.java](./src/serialization/SerializerTest.java) un generico serializzatore e deserializzatore;
 
 * [IntList.java](./src/serialization/IntList.java) e [IntListTest.java](./src/serialization/IntListTest.java);
 
