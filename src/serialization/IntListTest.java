@@ -12,6 +12,7 @@ public class IntListTest {
 			list.add((int) (Math.random() * 40000));
 		
 		IntList copy = (IntList) Serializer.deepclone(list);
+		
 		if (list.equals(copy))
 			System.out.println("equal copies");
 		

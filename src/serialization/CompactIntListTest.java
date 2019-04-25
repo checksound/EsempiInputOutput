@@ -9,9 +9,12 @@ public class CompactIntListTest {
 		CompactIntList list = new CompactIntList();
 		for (int i = 0; i < 100; i++)
 			list.add((int) (Math.random() * 40000));
+		
 		CompactIntList copy = (CompactIntList) Serializer.deepclone(list);
+		
 		if (list.equals(copy))
 			System.out.println("equal copies");
+		
 		Serializer.store(list, new File("compactintlist.ser"));
 	}
 }
