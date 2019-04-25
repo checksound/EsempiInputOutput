@@ -6,7 +6,19 @@ Esempio [CopyFileAsResources](./src/CopyFileAsResources.java), simile all'esempi
 
 Esempio di utilizzo `java.io.RandomAccessFile`, [RandomAccessFileTest.java](./src/RandomAccessFileTest.java)
 
-Esempio su serializzazione: [ObjectSerialization.java](./src/ObjectSerializationTest.java)
+Esempi su serializzazione: 
+
+* [ObjectSerializationTest.java](./src/serialization/ObjectSerializationTest.java) serializzazione di oggetti della classe `MySerializedObject`;
+
+* [Serailizer.java](./src/serialization/Serializer.java) e [SerailizerTest.java](./src/serialization/SerializerTest.java) un generico serializzatore e deserializzatore;
+
+* [IntList.java](./src/serialization/IntList.java) e [IntListTest.java](./src/serialization/IntListTest.java);
+
+* [CompactIntList.java](./src/serialization/CompactIntList.java) e [CompactIntListTest.java](./src/serialization/CompactIntListTest.java) - esempio di utilizzo di `java.io.Externalizable`;
+
+
+
+
 
 Esempio **compressione di file e directory**: [Compress.java](./src/Compress.java) e [AppCompress.java](./src/AppCompress.java). Utilizzo: `java AppCompress <from> [<to>]`
 

@@ -1,3 +1,5 @@
+package serialization;
+
 import java.io.*;
  
 public class ObjectSerializationTest {
@@ -64,6 +66,7 @@ public class ObjectSerializationTest {
 }
  
 class MySerializedObject implements Serializable {
+	
    private int number;
  
    public MySerializedObject(int number) {
