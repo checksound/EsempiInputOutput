@@ -55,7 +55,21 @@ public class IntList implements Serializable {
 		in.defaultReadObject(); // Read the array normally.
 		size = data.length; // Restore the transient field.
 	}
-	
+
+	/**
+	 * Does this object contain the same values as the object o? We override this
+	 * Object method so we can test the class.
+	 **/
+	public boolean equals(Object o) {
+		if (!(o instanceof IntList))
+			return false;
+		IntList that = (IntList) o;
+		if (this.size != that.size)
+			return false;
+		for (int i = 0; i < this.size; i++)
+			if (this.data[i] != that.data[i])
+				return false;
+		return true;
+	}
 
 }
-
